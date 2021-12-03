@@ -1,0 +1,10 @@
+This program reads in 49 images (frames) from the commmand line and then performs LWE to predict the 99th frame. The LWE process will begin as soon as the program is run, and the predicted 99th frame will be displayed as soon as the process is finished. It will initially be flipped the wrong way, but pressing the "f" key with the image selected should flip it so that the message can be read. Also the "o" key will export the image to "newFile.xre", where it can be read. The predicted 99th frame can also be found inside the 'alattis' folder as 'frame99Estimate.exr'. 
+
+The input images are located in alattis/problem/. The program can be run by typing "make" while in the 'alattis' folder, followed by "make paint" followed by "./img_paint problem/img_lwe_image.*.jpg".
+
+Most of the code I have written for this project, including the LinearWaveEstimate class, is located in the files LinearWaveEstimate.C and LinearWaveEstimate.h. These are the only files I have added to the starterkit. 
+
+
+Dr. Tessendorf and Liang,
+
+Thank you for a great semester! I hope you have a great winter break, and new year!
